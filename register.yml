@@ -1,0 +1,10 @@
+---
+- hosts: demo
+  user: ansible
+  become: yes
+  connection: ssh
+  tasks: 
+     - name: "checking working directory"
+       command: pwd chdir=/root
+       register: result
+     - debug: msg="{{ result.stdout }}"

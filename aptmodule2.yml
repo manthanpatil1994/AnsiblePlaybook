@@ -1,0 +1,11 @@
+---
+ - name: Ansible apt module examples
+   hosts: all
+   user: ansible
+   become: false
+   tasks: 
+    - name: Ansible Update Cache and install openssl
+      apt:
+        name: openssl
+        state: present
+        update_cache: yes

@@ -1,0 +1,10 @@
+--- #install httpd
+- hosts: demo
+  user: ansible
+  become: yes
+  connection: ssh
+
+  tasks:
+    - name: install HTTPD
+      action: yum name=httpd state=present
+

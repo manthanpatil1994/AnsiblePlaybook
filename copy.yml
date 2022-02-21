@@ -1,0 +1,14 @@
+- name: "Copy files" 
+  hosts: all 
+  become: yes 
+  gather_facts: false 
+  vars: 
+    source: /home/ansible/copyserver
+    dest: /home/ansible
+  tasks: 
+    - name: "Copy file"
+      copy:
+        src: "{{source}}"
+        dest: "{{dest}}"
+        group: root
+        mode: 777 

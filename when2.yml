@@ -1,0 +1,12 @@
+--- # when condition
+- host: demo
+  user: ansible
+  become: yes
+  connection: ssh
+    tasks:
+  - name: Configure SELinux to start mysql on any port
+    ansible.posix.seboolean:
+      name: mysql_connect_any
+      state: true
+      persistent: yes
+    when: ansible_selinux.status == "enabled"

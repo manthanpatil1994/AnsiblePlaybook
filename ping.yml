@@ -1,0 +1,6 @@
+---
+- name: ping test playbook
+  hosts: all
+  tasks:
+    - name: Ping test
+      ping: 

@@ -1,0 +1,13 @@
+--- # when condition
+- hosts: demo
+  user: ansible
+  become: yes
+  connection: ssh
+  tasks: 
+        - name: Install apache222 server for debian family
+          command: apt-get -y install apache2
+          when: ansible_os_family == "Debian"
+        - name: Instll apache server for redhat
+          command: yum -y install httpd
+          when: ansible_os_family == "Redhat"
+

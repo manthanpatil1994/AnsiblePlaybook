@@ -1,0 +1,11 @@
+---
+ - name: Collects variable from sainath.yml file
+   hosts: demo
+   vars_files: sainath.yml
+   gather_facts: false
+   tasks:
+   - debug:
+       msg:
+         - "My name is {{ NAME }}"
+         - "This is {{ COURSE }} tutorial"
+         - "We are learning about {{ CHAPTER }}"

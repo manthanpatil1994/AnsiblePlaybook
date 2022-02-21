@@ -1,0 +1,10 @@
+---
+- hosts: all
+  tasks:
+    - name: Restart Apache on webservers
+      become: yes
+      service:
+        name: apache2
+        state: restarted
+      when: webservers in group_names
+

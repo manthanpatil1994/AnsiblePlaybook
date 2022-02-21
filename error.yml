@@ -1,0 +1,10 @@
+---
+- hosts: all
+  tasks:
+    - name: Stop httpd if already running
+      service: name=httkd state=stopped
+      ignore_errors: True
+
+    - name: Stop httpd if already running
+      service: name=httpd state=stopped
+      become: yes
