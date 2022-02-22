@@ -1,0 +1,7 @@
+---
+# handlers file for ansibleroles2
+- name: restart httpd
+  service:
+      name: httpd
+      state: restarted
+      enable: true

@@ -14,16 +14,16 @@
 $
 
 # Command Line History (newest to oldest):
-:wq!
-|2,0,1644987408,,"wq!"
 :q!
-|2,0,1644987283,,"q!"
+|2,0,1645501969,,"q!"
+:wq!
+|2,0,1645501965,,"wq!"
 :wq!!
 |2,0,1644058660,,"wq!!"
 
 # Search String History (newest to oldest):
 ? @$
-|2,1,1643441896,,"@$"
+|2,1,1645501960,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -39,257 +39,249 @@ $
 |3,0,1,1,3,0,1644050726,"         -name: install apache on debian server","          command: apt-get -y install apache2","          when: ansible_os_family == \"debian\""
 
 # File marks:
-'0  5  19  ~/roles2.yml
-|4,48,5,19,1644987408,"~/roles2.yml"
-'1  1  0  ~/tekneed.apache/roles2.yml
-|4,49,1,0,1644987283,"~/tekneed.apache/roles2.yml"
-'2  5  3  ~/tekneed.apache/roles2.yml
-|4,50,5,3,1644987205,"~/tekneed.apache/roles2.yml"
-'3  5  3  ~/tekneed.apache/roles2.yml
-|4,51,5,3,1644987205,"~/tekneed.apache/roles2.yml"
-'4  5  20  ~/tekneed.apache/roles2.yml
-|4,52,5,20,1644987150,"~/tekneed.apache/roles2.yml"
-'5  5  20  ~/tekneed.apache/roles2.yml
-|4,53,5,20,1644987150,"~/tekneed.apache/roles2.yml"
-'6  11  17  ~/tekneed.apache/tasks/main.yml
-|4,54,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
-'7  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,55,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
-'8  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,56,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
-'9  9  3  ~/ansibleroles/install/tasks/main.yml
-|4,57,9,3,1644904495,"~/ansibleroles/install/tasks/main.yml"
+'0  8  0  ~/ansibleroles2/templates
+|4,48,8,0,1645501969,"~/ansibleroles2/templates"
+'1  12  20  ~/ansibleroles2/tasks/main.yml
+|4,49,12,20,1645501901,"~/ansibleroles2/tasks/main.yml"
+'2  8  15  ~/ansibleroles/install/tasks/main.yml
+|4,50,8,15,1645501710,"~/ansibleroles/install/tasks/main.yml"
+'3  9  53  ~/nginx_role/tasks/main.yml
+|4,51,9,53,1645441996,"~/nginx_role/tasks/main.yml"
+'4  5  3  ~/nginx_install.yml
+|4,52,5,3,1645441902,"~/nginx_install.yml"
+'5  4  37  ~/nginx_role/tasks/main.yml
+|4,53,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+'6  4  37  ~/nginx_role/tasks/main.yml
+|4,54,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+'7  10  3  ~/nginx_role/tasks/main.yml
+|4,55,10,3,1645441031,"~/nginx_role/tasks/main.yml"
+'8  8  3  ~/nginx_role/tasks/main.yml
+|4,56,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+'9  10  3  ~/nginx_role/tasks/main.yml
+|4,57,10,3,1645441031,"~/nginx_role/tasks/main.yml"
 
 # Jumplist (newest first):
--'  5  19  ~/roles2.yml
-|4,39,5,19,1644987408,"~/roles2.yml"
--'  1  0  ~/roles2.yml
-|4,39,1,0,1644987346,"~/roles2.yml"
--'  1  0  ~/tekneed.apache/roles2.yml
-|4,39,1,0,1644987283,"~/tekneed.apache/roles2.yml"
--'  1  0  ~/tekneed.apache/roles2.yml
-|4,39,1,0,1644987283,"~/tekneed.apache/roles2.yml"
--'  5  3  ~/tekneed.apache/roles2.yml
-|4,39,5,3,1644987205,"~/tekneed.apache/roles2.yml"
--'  5  3  ~/tekneed.apache/roles2.yml
-|4,39,5,3,1644987205,"~/tekneed.apache/roles2.yml"
--'  5  3  ~/tekneed.apache/roles2.yml
-|4,39,5,3,1644987205,"~/tekneed.apache/roles2.yml"
--'  5  3  ~/tekneed.apache/roles2.yml
-|4,39,5,3,1644987205,"~/tekneed.apache/roles2.yml"
--'  5  20  ~/tekneed.apache/roles2.yml
-|4,39,5,20,1644987150,"~/tekneed.apache/roles2.yml"
--'  5  20  ~/tekneed.apache/roles2.yml
-|4,39,5,20,1644987150,"~/tekneed.apache/roles2.yml"
--'  1  0  ~/tekneed.apache/roles2.yml
-|4,39,1,0,1644987080,"~/tekneed.apache/roles2.yml"
--'  1  0  ~/tekneed.apache/roles2.yml
-|4,39,1,0,1644987080,"~/tekneed.apache/roles2.yml"
--'  1  0  ~/tekneed.apache/roles2.yml
-|4,39,1,0,1644987080,"~/tekneed.apache/roles2.yml"
--'  1  0  ~/tekneed.apache/roles2.yml
-|4,39,1,0,1644987080,"~/tekneed.apache/roles2.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  11  17  ~/tekneed.apache/tasks/main.yml
-|4,39,11,17,1644987015,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
--'  1  0  ~/tekneed.apache/tasks/main.yml
-|4,39,1,0,1644986828,"~/tekneed.apache/tasks/main.yml"
+-'  8  0  ~/ansibleroles2/templates
+|4,39,8,0,1645501969,"~/ansibleroles2/templates"
+-'  12  20  ~/ansibleroles2/tasks/main.yml
+|4,39,12,20,1645501901,"~/ansibleroles2/tasks/main.yml"
+-'  12  20  ~/ansibleroles2/tasks/main.yml
+|4,39,12,20,1645501901,"~/ansibleroles2/tasks/main.yml"
 -'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
+|4,39,8,15,1645501710,"~/ansibleroles/install/tasks/main.yml"
 -'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
+|4,39,8,15,1645501710,"~/ansibleroles/install/tasks/main.yml"
 -'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
+|4,39,8,15,1645501710,"~/ansibleroles/install/tasks/main.yml"
 -'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  15  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,15,1644904964,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
--'  8  14  ~/ansibleroles/install/tasks/main.yml
-|4,39,8,14,1644904748,"~/ansibleroles/install/tasks/main.yml"
+|4,39,8,15,1645501710,"~/ansibleroles/install/tasks/main.yml"
+-'  9  53  ~/nginx_role/tasks/main.yml
+|4,39,9,53,1645441996,"~/nginx_role/tasks/main.yml"
+-'  9  53  ~/nginx_role/tasks/main.yml
+|4,39,9,53,1645441996,"~/nginx_role/tasks/main.yml"
+-'  9  53  ~/nginx_role/tasks/main.yml
+|4,39,9,53,1645441996,"~/nginx_role/tasks/main.yml"
+-'  9  53  ~/nginx_role/tasks/main.yml
+|4,39,9,53,1645441996,"~/nginx_role/tasks/main.yml"
+-'  9  53  ~/nginx_role/tasks/main.yml
+|4,39,9,53,1645441996,"~/nginx_role/tasks/main.yml"
+-'  9  53  ~/nginx_role/tasks/main.yml
+|4,39,9,53,1645441996,"~/nginx_role/tasks/main.yml"
+-'  9  53  ~/nginx_role/tasks/main.yml
+|4,39,9,53,1645441996,"~/nginx_role/tasks/main.yml"
+-'  9  53  ~/nginx_role/tasks/main.yml
+|4,39,9,53,1645441996,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441916,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441916,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441916,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441916,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441916,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441916,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441916,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441916,"~/nginx_role/tasks/main.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  5  3  ~/nginx_install.yml
+|4,39,5,3,1645441902,"~/nginx_install.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  4  37  ~/nginx_role/tasks/main.yml
+|4,39,4,37,1645441749,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  10  3  ~/nginx_role/tasks/main.yml
+|4,39,10,3,1645441642,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
+-'  8  3  ~/nginx_role/tasks/main.yml
+|4,39,8,3,1645441031,"~/nginx_role/tasks/main.yml"
 
 # History of marks within files (newest to oldest):
 
-> ~/roles2.yml
-	*	1644987405	0
-	"	5	19
-	^	5	20
-	.	5	19
-	+	5	19
-
-> ~/tekneed.apache/roles2.yml
-	*	1644987278	0
-	"	1	0
-	^	5	4
-	.	5	4
-	+	5	4
-
-> ~/tekneed.apache/tasks/main.yml
-	*	1644987003	0
-	"	11	17
-	^	11	18
-	.	11	17
+> ~/ansibleroles2/templates
+	*	1645501967	0
+	"	8	0
+	.	8	0
 	+	8	0
-	+	7	16
-	+	9	15
-	+	11	17
+
+> ~/ansibleroles2/tasks/main.yml
+	*	1645501897	0
+	"	12	20
+	^	12	21
+	.	7	23
+	+	16	17
+	+	9	45
+	+	15	10
+	+	9	54
+	+	10	33
+	+	7	23
 
 > ~/ansibleroles/install/tasks/main.yml
-	*	1644904961	0
+	*	1645501707	0
 	"	8	15
 	^	8	16
 	.	8	15
@@ -389,6 +381,132 @@ $
 	+	6	26
 	+	8	15
 
+> ~/nginx_role/tasks/main.yml
+	*	1645441993	0
+	"	9	53
+	^	9	54
+	.	9	53
+	+	6	6
+	+	6	30
+	+	8	0
+	+	6	0
+	+	11	0
+	+	10	0
+	+	9	5
+	+	16	16
+	+	6	1
+	+	8	1
+	+	9	3
+	+	10	3
+	+	11	1
+	+	13	1
+	+	14	2
+	+	15	3
+	+	16	3
+	+	9	43
+	+	6	0
+	+	11	0
+	+	9	0
+	+	8	0
+	+	6	0
+	+	10	3
+	+	4	37
+	+	9	53
+
+> ~/nginx_install.yml
+	*	1645441899	0
+	"	5	3
+	^	5	4
+	.	5	3
+	+	2	0
+	+	1	2
+	+	5	15
+	+	2	0
+	+	3	1
+	+	4	2
+	+	5	3
+
+> ~/nginx_role/defaults/main.yml
+	*	1645439743	0
+	"	3	24
+	^	3	25
+	.	3	24
+	+	3	24
+
+> ~/nginx_role/handlers/main.yml
+	*	1645439659	0
+	"	5	23
+	^	5	24
+	.	5	23
+	+	4	37
+	+	5	23
+
+> ~/nginx_role/templates/index.html
+	*	1645439522	0
+	"	8	0
+	^	8	0
+	.	7	7
+	+	4	34
+	+	7	7
+
+> ~/ansibleroles2/templates/index.html
+	*	1645435763	0
+	"	8	63
+	^	8	64
+	.	8	63
+	+	2	7
+	+	3	9
+	+	8	77
+	+	9	0
+	+	8	77
+	+	11	0
+	+	8	63
+
+> ~/http-role.yml
+	*	1645434607	0
+	"	6	19
+	^	6	20
+	.	6	19
+	+	6	19
+
+> ~/ansibleroles2/defaults/main.yml
+	*	1645434465	0
+	"	3	22
+	^	3	23
+	.	3	22
+	+	3	22
+
+> ~/ansibleroles2/handlers/main.yml
+	*	1645434106	0
+	"	7	17
+	^	7	18
+	.	7	17
+	+	7	17
+
+> ~/roles2.yml
+	*	1644987405	0
+	"	5	19
+	^	5	20
+	.	5	19
+	+	5	19
+
+> ~/tekneed.apache/roles2.yml
+	*	1644987278	0
+	"	1	0
+	^	5	4
+	.	5	4
+	+	5	4
+
+> ~/tekneed.apache/tasks/main.yml
+	*	1644987003	0
+	"	11	17
+	^	11	18
+	.	11	17
+	+	8	0
+	+	7	16
+	+	9	15
+	+	11	17
+
 > ~/ansibleroles/lampstack.yml
 	*	1644903648	0
 	"	4	10
@@ -420,96 +538,3 @@ $
 	.	7	15
 	+	13	24
 	+	7	15
-
-> ~/when3.yml
-	*	1644293594	0
-	"	3	12
-	^	3	13
-	.	3	12
-	+	18	50
-	+	3	12
-
-> ~/when4.yml
-	*	1644293572	0
-	"	3	12
-	^	3	13
-	.	3	12
-	+	16	21
-	+	3	12
-
-> ~/fail.yml
-	*	1644293549	0
-	"	3	12
-	^	3	13
-	.	3	12
-	+	20	21
-	+	3	12
-	+	20	21
-	+	3	12
-
-> ~/createdir.yml
-	*	1644233649	0
-	"	8	34
-	^	8	35
-	.	9	0
-	+	7	33
-	+	10	18
-	+	8	35
-	+	8	69
-	+	8	35
-	+	9	0
-
-> ~/register.yml
-	*	1644232818	0
-	"	10	38
-	^	10	39
-	.	10	37
-	+	7	41
-	+	10	37
-
-> ~/selinux.yml
-	*	1644230793	0
-	"	1	11
-	^	1	12
-	.	1	11
-	+	1	11
-
-> ~/ping.yml
-	*	1644229676	0
-	"	6	11
-	^	6	12
-	.	6	11
-	+	5	21
-	+	6	11
-
-> ~/when1.yml
-	*	1644058381	0
-	"	3	13
-	^	3	14
-	.	3	13
-	+	17	21
-	+	3	13
-
-> ~/block3.yml
-	*	1644057978	0
-	"	3	13
-	^	3	14
-	.	3	13
-	+	41	27
-	+	3	13
-
-> ~/block2.yml
-	*	1644057768	0
-	"	3	12
-	^	3	13
-	.	3	12
-	+	22	57
-	+	3	12
-
-> ~/block.yml
-	*	1644057690	0
-	"	3	12
-	^	3	13
-	.	3	12
-	+	20	17
-	+	3	12

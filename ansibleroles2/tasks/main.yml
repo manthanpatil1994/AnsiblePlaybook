@@ -1,0 +1,16 @@
+---
+# tasks file for ansibleroles2
+- name: installing httpd
+  yum:
+    name: httpd
+    state: latest
+- name: copying index.j2 template
+  template:
+    src: /home/ansible/ansibleroles2/templates/index.j2
+    dest: /var/www/html/index.html
+  notify: restart httpd
+- name: restart httpd
+  service:
+    name: httpd
+    enabled: yes
+    state: started

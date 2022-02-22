@@ -1,257 +1,3 @@
-
-Dependencies Resolved
-
-================================================================================================================
- Package                        Arch              Version                           Repository             Size
-================================================================================================================
-Installing:
- httpd                          x86_64            2.4.52-1.amzn2                    amzn2-core            1.3 M
-Installing for dependencies:
- apr                            x86_64            1.7.0-9.amzn2                     amzn2-core            122 k
- apr-util                       x86_64            1.6.1-5.amzn2.0.2                 amzn2-core             99 k
- apr-util-bdb                   x86_64            1.6.1-5.amzn2.0.2                 amzn2-core             19 k
- generic-logos-httpd            noarch            18.0.0-4.amzn2                    amzn2-core             19 k
- httpd-filesystem               noarch            2.4.52-1.amzn2                    amzn2-core             24 k
- httpd-tools                    x86_64            2.4.52-1.amzn2                    amzn2-core             88 k
- mailcap                        noarch            2.1.41-2.amzn2                    amzn2-core             31 k
- mod_http2                      x86_64            1.15.19-1.amzn2.0.1               amzn2-core            149 k
-
-Transaction Summary
-================================================================================================================
-Install  1 Package (+8 Dependent packages)
-
-Total download size: 1.9 M
-Installed size: 5.2 M
-Downloading packages:
-(1/9): apr-util-1.6.1-5.amzn2.0.2.x86_64.rpm                                             |  99 kB  00:00:00
-(2/9): apr-1.7.0-9.amzn2.x86_64.rpm                                                      | 122 kB  00:00:00
-(3/9): apr-util-bdb-1.6.1-5.amzn2.0.2.x86_64.rpm                                         |  19 kB  00:00:00
-(4/9): generic-logos-httpd-18.0.0-4.amzn2.noarch.rpm                                     |  19 kB  00:00:00
-(5/9): httpd-filesystem-2.4.52-1.amzn2.noarch.rpm                                        |  24 kB  00:00:00
-(6/9): httpd-tools-2.4.52-1.amzn2.x86_64.rpm                                             |  88 kB  00:00:00
-(7/9): httpd-2.4.52-1.amzn2.x86_64.rpm                                                   | 1.3 MB  00:00:00
-(8/9): mailcap-2.1.41-2.amzn2.noarch.rpm                                                 |  31 kB  00:00:00
-(9/9): mod_http2-1.15.19-1.amzn2.0.1.x86_64.rpm                                          | 149 kB  00:00:00
-----------------------------------------------------------------------------------------------------------------
-Total                                                                           8.8 MB/s | 1.9 MB  00:00:00
-Running transaction check
-Running transaction test
-Transaction test succeeded
-Running transaction
-  Installing : apr-1.7.0-9.amzn2.x86_64                                                                     1/9
-  Installing : apr-util-bdb-1.6.1-5.amzn2.0.2.x86_64                                                        2/9
-  Installing : apr-util-1.6.1-5.amzn2.0.2.x86_64                                                            3/9
-  Installing : httpd-tools-2.4.52-1.amzn2.x86_64                                                            4/9
-  Installing : generic-logos-httpd-18.0.0-4.amzn2.noarch                                                    5/9
-  Installing : mailcap-2.1.41-2.amzn2.noarch                                                                6/9
-  Installing : httpd-filesystem-2.4.52-1.amzn2.noarch                                                       7/9
-  Installing : mod_http2-1.15.19-1.amzn2.0.1.x86_64                                                         8/9
-  Installing : httpd-2.4.52-1.amzn2.x86_64                                                                  9/9
-  Verifying  : apr-util-1.6.1-5.amzn2.0.2.x86_64                                                            1/9
-  Verifying  : httpd-tools-2.4.52-1.amzn2.x86_64                                                            2/9
-  Verifying  : apr-util-bdb-1.6.1-5.amzn2.0.2.x86_64                                                        3/9
-  Verifying  : httpd-filesystem-2.4.52-1.amzn2.noarch                                                       4/9
-  Verifying  : httpd-2.4.52-1.amzn2.x86_64                                                                  5/9
-  Verifying  : mailcap-2.1.41-2.amzn2.noarch                                                                6/9
-  Verifying  : generic-logos-httpd-18.0.0-4.amzn2.noarch                                                    7/9
-  Verifying  : mod_http2-1.15.19-1.amzn2.0.1.x86_64                                                         8/9
-  Verifying  : apr-1.7.0-9.amzn2.x86_64                                                                     9/9
-
-Installed:
-  httpd.x86_64 0:2.4.52-1.amzn2
-
-Dependency Installed:
-  apr.x86_64 0:1.7.0-9.amzn2                            apr-util.x86_64 0:1.6.1-5.amzn2.0.2
-  apr-util-bdb.x86_64 0:1.6.1-5.amzn2.0.2               generic-logos-httpd.noarch 0:18.0.0-4.amzn2
-  httpd-filesystem.noarch 0:2.4.52-1.amzn2              httpd-tools.x86_64 0:2.4.52-1.amzn2
-  mailcap.noarch 0:2.1.41-2.amzn2                       mod_http2.x86_64 0:1.15.19-1.amzn2.0.1
-
-Complete!
-[ansible@ip-172-31-40-85 ~]$ exit
-logout
-[root@ip-172-31-40-85 /]# su - ansible
-Last login: Wed Jan 26 08:31:19 UTC 2022 on pts/1
-[ansible@ip-172-31-40-85 ~]$ ssh 172.31.37.120
-The authenticity of host '172.31.37.120 (172.31.37.120)' can't be established.
-ECDSA key fingerprint is SHA256:TDdI6PfqmR77i0UI1Aq/FYlYe41Q5FZ8S6zAwuO12oc.
-ECDSA key fingerprint is MD5:f5:65:5b:a0:db:29:ce:c3:c3:d6:b4:50:24:4a:76:58.
-Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added '172.31.37.120' (ECDSA) to the list of known hosts.
-Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
-[ansible@ip-172-31-40-85 ~]$ exit
-logout
-exit
-ansible demo -b -m yum -a "pkg=httpd state=present"
-ansible demo -b -m yum -a "pkg=httpd state=absent"
-which httpd
-yum remove httpd
-sudo yum remove httpd
-which httpd
-ansible demo -b -m yum -a "pkg=httpd state=present"
-ansible demo -b -m yum -a "pkg=httpd state=absent"
-which httpd
-ansible demo -b -m yum -a "pkg=httpd state=absent"
-ansible demo -b -m yum -a "pkg=httpd state=present"
-which httpd
-ansible demo -b -m yum -a "pkg=httpd state=present"
-which httpd
-ansible demo -b -m yum -a "pkg=httpd state=latest"
-ansible demo -b -m service -a "name=httpd state=started"
-ansible demo -b -m service -a "name=httpd state=status"
-ansible demo -b -m yum -a "pkg=httpd state=absent"
-ansible demo -b -m yum -a "pkg=httpd state=present"
-ansible demo -b -m service -a "name=httpd state=started"
-ansible demo -b -m user -a "name=alex"
-ls
-touch copiedfromserver
-ls
-ansible demo -b -m copy -a "src=copiedfromserver dest= /tmp"
-ansible demo -b -m copy -a "src=copiedfromserver dest=/tmp"
-ll
-ansible demo -m setup
-ansible demo -m setup -a "filter=*ipv4*"
-ssh 
-ssh 172.31.37.120
-su - ansible 
-ssh 172.31.42.61
-ssh-keygen
-ll
-ls -a
-cd .ssh
-ll
-ssh-copy-id ansible@172.31.37.120
-ssh-copy-id ansible@172.31.42.61
-ssh-copy-id ansible@172.31.37.120
-ll
-cd ..
-ssh 172.31.40.85
-ssh 172.31.42.61
-ssh 172.31.37.120
-ssh  172.31.37.120
-ssh 172.31.42.61
-ll
-ansible all --list-hosts
-ansible demo --list-hosts
-ansible demo[0] --list-hosts
-ansible demo[-1] --list-hosts
-ansible demo[2] --list-hosts
-ansible demo[0:1] --list-hosts
-ll
-ansible demo -a "ls"
-ansible all -a "ls"
-ansible all -a "touch manthan"
-ansible demo -a "ls"
-ansible demo -a "ls -al"
-sudo ansible demo -a "yum install httpd -y"
-sudo ansible demo -a "sudo yum install httpd -y"
- ansible demo -a "sudo yum install httpd -y"
-which httpd
-ansible demo -ba "yum remove httpd -y"
-which httpd
-ansible all -ba "yum remove httpd -y"
-which httpd
-ansible demo -a "ls"
-ansible demo[0] -a "touch node1file"
-ansible demo -a "ls"
-ansible all -a "touch commonfile"
-ansible demo -a "ls"
-ansible -b -m yum -a "pkg=httpd state=present"
-ansible -b -m yum -a " pkg=httpd state=present "
-ansible demo -b -m yum -a " pkg=httpd state=present "
-sudo - su
-sudo su -
-history 
-sudo - su
-sudo su -
-vi apache.yml
-ansible-playbook playbook.yml -i inventory.txt
-ansible-playbook apache.yml -i inventory.txt
-ll
-vi apache.yml
-ansible-playbook apache.yml -i inventory.txt
-cat apache.yml 
-vi playbook.yml
-
-history 
- ansible all -a "ls"
-ansible-playbook apache.yml 
-ll
-ansible-playbook playbook.yml 
-ansible-playbook apache.yml 
-vi playbook.yml 
-vi apache.yml 
-ansible-playbook apache.yml 
-vi apache.yml 
-ll
-vi playbook2.yml
-ansible-playbook playbook2.yml 
-touch copyserver
-pwd
-vi copy.yml
-ll
-vi copy.yml
-ll
-ansible-playbook copy.yml 
- ansible all -a "ls"
-ll
-ansible-playbook apache.yml
-vi apache.yml
-ansible-playbook apache.yml
-vi apache.yml
-ansible-playbook apache.yml
-history
-ll
-vi shell.yml
-ansible-playbook shell.yml 
-cat shell.yml 
-vi aptmodule.yml
-ansible-playbook aptmodule.yml 
-vi aptmodule.yml
-vi apache.yml
-cat aptmodule.yml 
-vi aptmodule2.yml 
-ansible-playbook aptmodule2.yml 
-vi aptmodule2.yml 
-ansible-playbook aptmodule2.yml 
- ansible demo -a "ls"
-ll
-history
- ansible-playbook apache.yml
-ll
-ls
-exit
-ll
-history 
-ll
- ansible-playbook apache.yml
- ansible-playbook playbook.yml 
-exit
-ll
-vi target.yml
-ansible-playbook target.yml
-vi target.yml
-ansible-playbook target.yml
-vi target.yml
-vi /etc/ansible/hosts 
-exit
-vi task.yml
-ll
-vi /etc/ansible
-cd /etc/ansible
-ll
-vi ansible.cfg 
-ll
-vi hosts 
-ll
-vi ansible.cfg 
-cd ..
-ll
-cd ..
-ll
-exit
-ll
-vi target.yml 
-ll
 ansible-playbook target.yml
 vi target.yml 
 ansible-playbook target.yml
@@ -998,3 +744,257 @@ ansible-playbook master.yml
 cd playbook/
 ll
 ansible-playbook master.yml 
+ll
+pwd
+git remote add origin https://github.com/manthanpatil1994/AnsiblePlaybook.git
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/manthanpatil1994/AnsiblePlaybook.git
+git push origin master
+git push origin main
+git push -u origin master
+git init
+git add -A
+git commit -m 'Added my playbook'
+git remote add origin git@github.com:https://github.com/manthanpatil1994/AnsiblePlaybook.git
+git push -u -f origin master
+git init
+git commit -m "First commit"
+git config --global user.email "manthanpatil1994"
+git commit -m "First commit"
+git config --global user.email "manthanpatil1994"
+git config --global user.name "manthanpatil1994"
+git commit -m "First commit"
+git push -u -f origin master
+git remote add origin https://github.com/manthanpatil1994/AnsiblePlaybook.git
+git push -u origin main
+git remote add origin https://github.com/manthanpatil1994/AnsiblePlaybook.git
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/manthanpatil1994/Installation_guide.git
+git push -u origin main
+ll
+git init
+git add README.md
+cat apache.yml 
+cat aptmodule2.yml 
+cat aptmodule.yml 
+cat block.yml 
+cat block2.yml 
+cat block3.yml 
+cat condition.yml 
+cat copiedfromserver 
+cat copyserver 
+ll
+cat copy.yml 
+cat createdir.yml 
+cat error.yml 
+cat error2.yml 
+cat fail.yml 
+ cat handlers.yml 
+cat hello.yml 
+cat loops.yml 
+cat modulereg.yml 
+cat ping.yml 
+ cat playbook.yml 
+ll
+cat playbook2.yml 
+car reg2.yml 
+cat reg2.yml 
+cat register.yml 
+cat regmodule.yml 
+ll
+cat reg.yml 
+cat shell.yml 
+cat target.yml 
+cat target2.yml 
+ll
+cat variable2.yml 
+cat variable3.yml 
+cat variable.yml 
+cat vars2.yml 
+cat when1.yml 
+cat when2.yml 
+cat when3.yml 
+cat when4.yml 
+ll
+cat when.yml 
+ll
+history 
+ansible-galaxy init ansibleroles
+ll
+ansible-galaxy init ansibleroles2
+tree ansibleroles2
+cd ansibleroles2/
+ll
+vi tasks/main.yml 
+ll
+vi handlers/main.yml 
+cd templates/
+ll
+vi index.html
+pwd
+cd ..
+ll
+vi defaults/main.yml 
+ll
+cd ..
+ll
+vi http-role.yml
+ansible-playbook http-role.yml 
+cd ansibleroles2
+ll
+vi tasks/main.yml 
+cd ..
+ansible-playbook http-role.yml 
+docker run -d -p 80:80 httpd
+ll
+cd ansibleroles2/
+ll
+cd templates/
+ll
+vi index.html 
+cd ..
+ansible-playbook http-role.yml 
+cd ansibleroles2/
+ll
+cd templates
+vi index.html 
+cd ..
+ll
+cat tasks/main.yml 
+cat templates/index.html 
+ll
+cd templates/
+ll
+mv index.html index.j2
+ll
+cd ..
+ll
+vi tasks/main.yml 
+cd ..
+ansible-playbook http-role.yml 
+ll
+ansible-galaxy init nginx_role
+tree nginx_role/
+cd nginx_role/
+vi tasks/main.yml 
+cd templates/
+cd nginx_role/
+ll
+cd templates/
+ll
+ls -a
+cat .
+cat ..
+ll
+vi index.html
+cd ..
+vi handlers/main.yml 
+vi defaults/main.yml 
+cd ..
+ll
+vi nginx_install.yml
+ansible-playbook nginx_install.yml 
+vi nginx_install.yml
+ansible-playbook nginx_install.yml 
+cat nginx_install.yml 
+cd nginx_role/
+ll
+vi tasks/main.yml 
+cd templates
+ll
+pwd
+cd ..
+vi tasks/main.yml 
+ssh 172.31.37.120
+ll
+cd ..
+cd nginx_role/
+ll
+vi tasks/main.yml 
+cd ..
+ansible-playbook nginx_install.yml 
+cd nginx_role/
+ll
+cat tasks/main.yml 
+vi tasks/main.yml 
+cd ..
+ansible-playbook nginx_install.yml 
+ll
+vi nginx_install.yml 
+cd nginx_role/
+ll
+vi tasks/main.yml 
+ll
+cd ansibleroles
+ll
+cd install/
+ll
+vi tasks/main.yml 
+cd ..
+cat lampstack.yml 
+cd ..
+ll
+cd ansibleroles
+ll
+cd ..
+cd ansibleroles2/
+ll
+vi tasks/main.yml 
+cd vars/
+ll
+cat main.yml 
+cd ,,
+cd ..
+ll
+vi templates
+cd templates/
+ll
+cat index.j2 
+cd ..
+ll
+cd defaults/
+ll
+cat main.yml 
+cd ..
+ll
+cd handlers/
+ll
+cat main.yml 
+cd ..
+ll
+cd ..
+ll
+cat http-role.yml 
+cd nginx_role/
+ll
+cat tasks/main.yml 
+cat templates/index.html 
+ll
+cat handlers/main.yml 
+cd defaults/
+ll
+cat main.yml 
+cd ..
+ll
+cd ..
+ll
+cat nginx_install.yml 
+ll
+cd playbook/
+ll
+cd roles/
+ll
+cd webserver/
+ll
+cat tasks/main.yml 
+ll
+cd tasks/
+ll
+cd ..
+ll
+cat master.yml 
+cd ..
+ll

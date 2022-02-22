@@ -1,0 +1,3 @@
+---
+# defaults file for ansibleroles2
+type_of_webserver: http
